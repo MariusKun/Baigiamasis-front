@@ -1,0 +1,255 @@
+.startPage{
+display: flex;
+flex-direction: column;
+
+}
+
+.loginCard {
+
+display: flex;
+flex-direction: column;
+width: 300px;
+background-color: rgb(243, 29, 29);
+padding: 20px;
+margin-left: 20px;
+border-radius: 15px 50px;
+
+}
+.registerCard {
+
+display: flex;
+flex-direction: column;
+width: 300px;
+background-color: rgb(173, 125, 62);
+padding: 20px;
+margin-left: 20px;
+border-radius: 15px 50px;
+
+}
+
+.registerCard input{
+  padding: 7px;
+  margin-bottom: 5px;
+}
+.registerCard select{
+  padding: 7px;
+  margin-bottom: 5px;
+}
+.registerCard button{
+  padding: 7px;
+  margin-bottom: 5px;
+}
+.loginCard input{
+  padding: 7px;
+  margin-bottom: 5px;
+}
+.registerCard h5{
+  padding: 7px;
+  margin-bottom: 5px;
+}
+.loginCard button{
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+.profile {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  padding: 15px;
+  border-radius: 15px 50px;
+  background-color: pink;
+  
+}
+
+
+.profile input{
+  height: 40px;
+  width: 380px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px 50px;
+
+}
+
+.profile h1{
+
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(44, 98, 91);
+}
+
+.profile button{
+  padding: 10px 20px;
+  background-image: url(https://img.freepik.com/premium-vector/valentine-s-day-hearts-seamless-pattern_78458-46.jpg?w=2000);
+  background-size: cover;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+
+
+.arrows {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  height: 100%;
+  background-color: rgb(0 0 0 / 0%);
+  cursor: pointer;
+}
+.arrows :hover{
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  height: 100%;
+  background-color: rgb(0 0 0 / 0%);
+  cursor: pointer;
+}
+
+
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 15px 50px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background-image: url(https://img.freepik.com/premium-vector/valentine-s-day-hearts-seamless-pattern_78458-46.jpg?w=2000);
+  background-size: cover;
+}
+
+.likesPage {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* background-color: rgb(239, 206, 239);
+  border-radius: 15px 50px;
+  padding: 15px; */
+}
+
+.likesPage h3.link{
+  background-color: rgb(239, 206, 239);
+  border-radius: 15px 50px;
+  padding: 15px;
+  margin-bottom: 25px;
+
+}
+
+.separateCards{
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(239, 206, 239);
+  border-radius: 15px 50px;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.FindPage {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  background-color: rgb(239, 206, 239);
+  border-radius: 15px 50px;
+  padding: 25px;
+}
+
+.FindPage select{
+  width: 90%;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.FindPage input{
+  width: 90%;
+  padding: 5px;
+}
+.FindPage button{
+  width: 50%;
+  padding: 5px;
+}
+
+.passButton {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(220, 59, 59);
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+}
+.passButton:hover {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(220, 59, 59);
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+}
+.likeButton {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(91, 228, 57);
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+}
+.likeButton:hover {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(91, 228, 57);
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+}
+
+.UsersPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+  border-radius: 15px 50px;
+}
+.UsersPage h1{
+  color: rgb(0, 0, 0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.UsersPage{
+  max-width: 1030px;
+}
+
+.label{
+  
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+  }
+  
+  .check {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: 5px;
+  }
+
+  
